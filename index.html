@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="fuentes/MinecraftBold-nMK1.otf">
+        <link rel="stylesheet" href="fuentes/MinecraftRegular-Bmg3.otf">
+        <link rel="stylesheet" href="fuentes/MinecraftTen-VGORe.ttf">
+        <link rel="stylesheet" href="fuentes/Montserrat-VariableFont_wght.ttf">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <img src="imagenes/logo.png" alt="logo alura" class="logo">
+            <h1>
+                <span class="titulo">Encriptacraft</span>
+            </h1>
+        </header>
+        <main>
+            <section>
+                <textarea class="text-area"
+                          cols="30"
+                          rows="10"
+                          placeholder="Ingrese el texto aqui"></textarea>
+                <div>
+                    <h6 class="informacion">
+                        <i class="fa-solid fa-circle-info"></i>
+                        Solo letras minúsculas y sin acentos
+                    </h6>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section class="contenedor">
+                <textarea class="mensaje" cols="20" rows="10" readonly></textarea>
+                <div>
+                    <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h2 class="footer-text">&copy; Fernanda Jovel</h2>
+            <div class="redes-container">
+                <a href="https://github.com/ferjovel06" target="_blank"><i class="redes-icons fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/maria-fernanda-jovel/" target="_blank"><i class="redes-icons fa-brands fa-linkedin"></i></a>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

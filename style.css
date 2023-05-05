@@ -1,0 +1,339 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray: #BBB2B0;
+    --gray-100: #CED4DA;
+    --light-gray: #CCCCCC;
+    --dark-gray: #272729;
+    --light-blue: #F3F5FC;
+    --green: #128947;
+    --light-green: #35CE49;
+    --dark-green: #0B4E2D;
+}
+
+* {
+    font-family: 'Minecraft', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body {
+    background: url(imagenes/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.titulo {
+    font-family: 'Minecraft Ten', sans-serif;
+    font-size: 65px;
+    color: var(--gray);
+    -webkit-text-stroke: 2px var(--black);
+    text-shadow: 8px 8px var(--dark-gray);
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: var(--light-blue);
+    margin-top: 90px;
+    text-transform: lowercase;
+    background: none;
+}
+
+::placeholder {
+    color: var(--light-blue);
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.mensaje {
+    background-image: url(imagenes/munheco.png), url(imagenes/background_aside.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: var(--dark-gray);
+    margin-left: 98px;
+    margin-top: 20px;
+    padding: 115px 20px;
+    position: absolute;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.informacion {
+    color: var(--gray-100);
+    font-size: 14px;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+button {
+    font-size: 30px;
+}
+
+.btn-encriptar {
+    background-color: var(--green);
+    box-shadow: 0 4px var(--light-green) inset, 0 -4px var(--dark-green) inset;
+    border: 2px solid var(--black);
+    color: var(--white);
+    font-family: 'Minecraft Ten', sans-serif;
+    cursor: pointer;
+    height: 65px;
+    width: 260px;
+}
+
+.btn-encriptar:active {
+    box-shadow: 0 0 var(--light-green) inset, 0 0 var(--dark-green) inset;
+}
+
+.btn-desencriptar {
+    background-color: var(--white);
+    box-shadow: 0 4px var(--gray) inset, 0 -4px var(--light-gray) inset;
+    border: 2px solid var(--black);
+    color: var(--green);
+    font-family: 'Minecraft Ten', sans-serif;
+    cursor: pointer;
+    height: 65px;
+    width: 260px;
+    margin-left: 30px;
+}
+
+.btn-desencriptar:active {
+    box-shadow: 0 0 var(--gray) inset, 0 0 var(--light-gray) inset;
+}
+
+.btn-copiar {
+    background-color: var(--white);
+    box-shadow: 0 4px var(--light-gray) inset, 0 -3px var(--gray) inset;
+    border: 2px solid var(--black);
+    color: var(--green);
+    font-family: 'Minecraft Ten', sans-serif;
+    cursor: pointer;
+    height: 65px;
+    width: 260px;
+    position: absolute;
+    margin: 640px 185px 0;
+}
+
+.btn-copiar:active {
+    box-shadow: 0 0 var(--gray) inset, 0 0 var(--light-gray) inset;
+}
+
+footer {
+    background: url(imagenes/footer\ background.png);
+    display: flex;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 33px 40px;
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.redes-container {
+    position: absolute;
+    right: 2em;
+}
+
+.redes-icons {
+    margin-left: 5px;
+    color: var(--white);
+    font-size: 1.8em;
+}
+
+
+@media only screen and (max-width: 600px) {
+    * {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        overflow-x: hidden;
+    }
+
+    .logo {
+        margin-left: 12px;
+        padding-top: 12px;
+    }
+
+    .titulo {
+        font-size: 40px;
+        position: absolute;
+        top: 0;
+        margin-top: 2%;
+    }
+
+    main {
+        margin-left: 16px;
+        display: block;
+        text-align: center;
+    }
+
+    .botones {
+        display: block;
+        margin: 18px auto;
+    }
+
+    button {
+        font-size: 20px;
+    }
+
+    .btn-encriptar {
+        height: 55px;
+        margin: 0 15%;
+    }
+
+    .btn-desencriptar {
+        height: 55px;
+        margin: 10px 15%;
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mensaje {
+        margin: 0 2%;
+        padding: 20px;
+        position: relative;
+    }
+
+    .btn-copiar {
+        height: 55px;
+        width: 260px;
+        margin: 0;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+
+    .redes-container {
+        position: relative;
+        right: 0;
+        bottom: 2em;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
+    * {
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 130%;
+        overflow-x: hidden;
+    }
+
+    .logo {
+        margin-left: 30px;
+        padding-top: 40px;
+    }
+
+    .titulo {
+        position: absolute;
+        top: 0;
+        margin-top: 3%;
+    }
+
+    main {
+        margin-left: 16px;
+        display: block;
+        text-align: center;
+    }
+
+    .botones {
+        justify-content: center;
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mensaje {
+        margin: 0 2%;
+        padding: 0 175px;
+        position: relative;
+    }
+
+    .btn-copiar {
+        height: 55px;
+        width: 260px;
+        margin: 0;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+
+    .redes-container {
+        position: relative;
+        right: 0;
+        bottom: 2em;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    
+}
+
+@media only screen and (min-width: 1800px) {
+    .titulo {
+        left: 25%;
+    }
+
+    .text-area {
+        padding: 0 150px;
+    }
+
+    .mensaje {
+        margin-left: 18%;
+    }
+
+    .btn-copiar {
+        margin: 640px 22.5% 0;
+    }
+}
