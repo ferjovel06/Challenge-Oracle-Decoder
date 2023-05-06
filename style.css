@@ -119,6 +119,10 @@ button {
     width: 260px;
 }
 
+.btn-encriptar:hover {
+    transform: scale(1.1);
+}
+
 .btn-encriptar:active {
     box-shadow: 0 0 var(--light-green) inset, 0 0 var(--dark-green) inset;
 }
@@ -133,6 +137,10 @@ button {
     height: 65px;
     width: 260px;
     margin-left: 30px;
+}
+
+.btn-desencriptar:hover {
+    transform: scale(1.1);
 }
 
 .btn-desencriptar:active {
@@ -150,6 +158,10 @@ button {
     width: 260px;
     position: absolute;
     margin: 640px 185px 0;
+}
+
+.btn-copiar:hover {
+    transform: scale(1.1);
 }
 
 .btn-copiar:active {
