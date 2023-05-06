@@ -2,11 +2,11 @@
     <img src="https://raw.githubusercontent.com/patrickwebsdev/Encriptador-Oracle-Alura/master/img/one.png" width="200"/>
 </div>
 <div align="center">
+    <p>Encriptador/Desencriptador de texto con tema de minecraft</p>
     <img src="https://img.shields.io/badge/JavaScript-FEFF01?logo=javascript&logoColor=000000&style=for-the-badge"/>
     <img src="https://img.shields.io/badge/HTML-EC6231?logo=html5&logoColor=FFFFFF&style=for-the-badge" />
     <img src="https://img.shields.io/badge/CSS-01A3D8?logo=css3&logoColor=FFFFFF&style=for-the-badge" />
 </div>
-Encriptador/Desencriptador de texto con tema de minecraft
 
 ## :hammer:Como funciona
 
