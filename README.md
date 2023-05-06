@@ -2,7 +2,7 @@
     <img src="https://raw.githubusercontent.com/patrickwebsdev/Encriptador-Oracle-Alura/master/img/one.png" width="200"/>
 </div>
 
-# 🚀 Encriptador/Desencriptador de texto con tema de minecraft
+# 🚀 Challenge Encriptador | Oracle + Alura
 <p align="center" >
      <img src="https://user-images.githubusercontent.com/98281066/236635863-78c1c884-8285-431d-9afa-7320441f6e8d.png">
 </p>
