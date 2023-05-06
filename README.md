@@ -1,6 +1,7 @@
 <div align="center">
     <img src="https://raw.githubusercontent.com/patrickwebsdev/Encriptador-Oracle-Alura/master/img/one.png" width="200"/>
 </div>
+
 # 🚀 Encriptador/Desencriptador de texto con tema de minecraft
 <p align="center" >
      <img src="https://user-images.githubusercontent.com/98281066/236635863-78c1c884-8285-431d-9afa-7320441f6e8d.png">
@@ -27,9 +28,6 @@ En ese caso, la aplicación recorrera el mensaje encriptado verificando si los c
 Especificaciones
 - `1`: Solo estan permitidas letras minusculas
 - `2`: No estan permitidas letras con acentos ni caracteres especiales
-
-# Layout
-![captura](https://user-images.githubusercontent.com/98281066/236635863-78c1c884-8285-431d-9afa-7320441f6e8d.png)
 
 ## Autora
 | [<img src="https://avatars.githubusercontent.com/u/98281066" width=115><br><sub>María Fernanda Jovel</sub>](https://github.com/ferjovel06) |
