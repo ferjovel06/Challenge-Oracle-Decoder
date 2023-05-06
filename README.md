@@ -22,7 +22,6 @@ Especificaciones
 <img src="imagenes/captura.png"/>
 
 ## Autora
-
 | [<img src="![Fernanda](https://avatars.githubusercontent.com/u/98281066)
 " width=115><br><sub>María Fernanda Jovel</sub>](https://github.com/ferjovel06) |
 | :---: | :---: | :---: |
