@@ -1,10 +1,10 @@
 # ![ENCRIPTACRAFT](https://user-images.githubusercontent.com/98281066/236633445-7abcefa9-47df-45dc-bb15-027f39fd5bde.png)
-Encriptador/Desencriptador de texto con tema de minecraft
 <div align="center">
     <img src="https://img.shields.io/badge/JavaScript-FEFF01?logo=javascript&logoColor=000000&style=for-the-badge"/>
     <img src="https://img.shields.io/badge/HTML-EC6231?logo=html5&logoColor=FFFFFF&style=for-the-badge" />
     <img src="https://img.shields.io/badge/CSS-01A3D8?logo=css3&logoColor=FFFFFF&style=for-the-badge" />
 </div>
+Encriptador/Desencriptador de texto con tema de minecraft
 
 ## :hammer:Como funciona
 
