@@ -1,4 +1,6 @@
-# ![ENCRIPTACRAFT](https://user-images.githubusercontent.com/98281066/236633445-7abcefa9-47df-45dc-bb15-027f39fd5bde.png)
+<div align="center">
+    <img src="https://raw.githubusercontent.com/patrickwebsdev/Encriptador-Oracle-Alura/master/img/one.png" width="200"/>
+</div>
 <div align="center">
     <img src="https://img.shields.io/badge/JavaScript-FEFF01?logo=javascript&logoColor=000000&style=for-the-badge"/>
     <img src="https://img.shields.io/badge/HTML-EC6231?logo=html5&logoColor=FFFFFF&style=for-the-badge" />
