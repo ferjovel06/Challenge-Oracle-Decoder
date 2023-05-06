@@ -23,6 +23,6 @@ Especificaciones
 
 ## Autora
 
-| [<img src="![Fernanda](https://avatars.githubusercontent.com/u/ferjovel06)
+| [<img src="![Fernanda](https://avatars.githubusercontent.com/u/98281066)
 " width=115><br><sub>María Fernanda Jovel</sub>](https://github.com/ferjovel06) |
 | :---: | :---: | :---: |
