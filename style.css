@@ -30,7 +30,7 @@ body {
 }
 
 .titulo {
-    font-family: 'Minecraft Ten', sans-serif;
+    font-family: 'Minecraft Ten', 'Minecraft Evening', sans-serif;
     font-size: 65px;
     color: var(--gray);
     -webkit-text-stroke: 2px var(--black);
