@@ -30,5 +30,7 @@ Especificaciones
 - `2`: No estan permitidas letras con acentos ni caracteres especiales
 
 ## Autora
-| [<img src="https://avatars.githubusercontent.com/u/98281066" width=115><br><sub>María Fernanda Jovel</sub>](https://github.com/ferjovel06) |
-| :---: | :---: | :---: |
+[![Linkedin](https://img.shields.io/badge/Linkedin-0072b1?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/maria-fernanda-jovel/)
+
+
+[![GitHub](https://img.shields.io/badge/patrickwebsdev-black?logo=github&logoColor=FFFFFF&style=for-the-badge)](https://github.com/ferjovel06)
