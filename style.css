@@ -220,6 +220,10 @@ footer {
         text-align: center;
     }
 
+    .text-area {
+        width: 90%;
+    }
+
     .botones {
         display: block;
         margin: 18px auto;
@@ -256,8 +260,6 @@ footer {
         width: 260px;
         margin: 0;
         position: relative;
-        left: 50%;
-        transform: translateX(-50%);
     }
 
     footer {
@@ -322,8 +324,6 @@ footer {
         width: 260px;
         margin: 0;
         position: relative;
-        left: 50%;
-        transform: translateX(-50%);
     }
 
     footer {
