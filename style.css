@@ -40,8 +40,8 @@ body {
 }
 
 .logo {
-    padding-top: 20px;
-    margin-left: 20px;
+    padding-top: 1%;
+    margin-left: 5%;
 }
 
 .titulo {
@@ -53,6 +53,7 @@ body {
     position: absolute;
     top: 0;
     left: 15%;
+    text-decoration: none;
 }
 
 main {
@@ -176,7 +177,7 @@ footer {
 
 .footer-text {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 600;
     padding: 33px 40px;
     color: var(--white);
     font-family: 'Montserrat', sans-serif;
@@ -202,16 +203,12 @@ footer {
         overflow-x: hidden;
     }
 
-    .logo {
-        margin-left: 12px;
-        padding-top: 12px;
-    }
-
     .titulo {
         font-size: 40px;
-        position: absolute;
-        top: 0;
-        margin-top: 2%;
+    }
+
+    .logo {
+        margin-left: 2%;
     }
 
     main {
@@ -287,14 +284,7 @@ footer {
     }
 
     .logo {
-        margin-left: 30px;
-        padding-top: 40px;
-    }
-
-    .titulo {
-        position: absolute;
-        top: 0;
-        margin-top: 3%;
+        padding-top: 2%;
     }
 
     main {
@@ -341,10 +331,6 @@ footer {
         right: 0;
         bottom: 2em;
     }
-}
-
-@media only screen and (min-width: 1440px) {
-    
 }
 
 @media only screen and (min-width: 1800px) {

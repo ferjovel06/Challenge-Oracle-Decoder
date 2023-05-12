@@ -9,16 +9,20 @@ const mensaje = document.querySelector(".mensaje");
 
 function btnEncriptar() {
     const textoEncriptado = encriptar(textArea.value);
-    mensaje.value = textoEncriptado;
-    textArea.value = "";
-    mensaje.style.backgroundImage = "url(imagenes/background_aside.jpg)";
+    if (textArea.value !== "") {
+        mensaje.value = textoEncriptado;
+        textArea.value = "";
+        mensaje.style.backgroundImage = "url(imagenes/background_aside.jpg)";
+    }
 }
 
 function btnDesencriptar() {
     const textoDesencriptado = desencriptar(textArea.value);
-    mensaje.value = textoDesencriptado;
-    textArea.value = "";
-    mensaje.style.backgroundImage = "url(imagenes/background_aside.jpg)";
+    if (textArea.value !== "") {
+        mensaje.value = textoDesencriptado;
+        textArea.value = "";
+        mensaje.style.backgroundImage = "url(imagenes/background_aside.jpg)";
+    }
 }
 
 function btnCopiar() {
