@@ -7,8 +7,30 @@ const mensaje = document.querySelector(".mensaje");
 // La letra "o" es convertida para "ober"
 // La letra "u" es convertida para "ufat"
 
+
+// Funcion para verificar si hay caracteres especiales o acentos
+function verificarCaracteres() {
+    if (/[áéíóúñ$°~`|+*_#@!?<>":&^%]/.test(textArea.value)) {
+        swal.fire({
+            title: 'Error',
+            text: 'No se permiten caracteres especiales o acentos',
+            imageUrl: 'imagenes/error.jpg',
+            imageWidth: 220,
+            imageHeight: 200,
+            imageAlt: 'Creeper',
+        });
+        textArea.value = "";
+        return false;
+    }
+}
+
 function btnEncriptar() {
     const textoEncriptado = encriptar(textArea.value);
+    let verificar = verificarCaracteres();
+    if(verificar === false) {
+        return;
+    }
+
     if (textArea.value !== "") {
         mensaje.value = textoEncriptado;
         textArea.value = "";
@@ -18,6 +40,11 @@ function btnEncriptar() {
 
 function btnDesencriptar() {
     const textoDesencriptado = desencriptar(textArea.value);
+    let verificar = verificarCaracteres();
+    if(verificar === false) {
+        return;
+    }
+
     if (textArea.value !== "") {
         mensaje.value = textoDesencriptado;
         textArea.value = "";
@@ -25,9 +52,19 @@ function btnDesencriptar() {
     }
 }
 
+
+// Funcion para copiar
 function btnCopiar() {
     mensaje.select();
     document.execCommand("copy");
+    swal.fire({
+        title: 'Copiado',
+        text: 'El mensaje ha sido copiado al portapapeles',
+        imageUrl: 'imagenes/copy.jpg',
+        imageWidth: 220,
+        imageHeight: 200,
+        imageAlt: 'Steve montado en caballo',
+    });
 }
 
 // Función para encriptar
@@ -43,6 +80,7 @@ function encriptar(stringEncriptada) {
     return stringEncriptada;
 }
 
+// Función para desencriptar
 function desencriptar(stringDesencriptada) {
     let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
     stringDesencriptada = stringDesencriptada.toLowerCase();
