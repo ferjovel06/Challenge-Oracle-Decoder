@@ -1,6 +1,8 @@
 const textArea = document.querySelector(".text-area");
 const mensaje = document.querySelector(".mensaje");
 
+textArea.focus();
+
 // La letra "e" es convertida para "enter"
 // La letra "i" es convertida para "imes"
 // La letra "a" es convertida para "ai"
@@ -55,16 +57,28 @@ function btnDesencriptar() {
 
 // Funcion para copiar
 function btnCopiar() {
-    mensaje.select();
-    document.execCommand("copy");
-    swal.fire({
-        title: 'Copiado',
-        text: 'El mensaje ha sido copiado al portapapeles',
-        imageUrl: 'imagenes/copy.jpg',
-        imageWidth: 220,
-        imageHeight: 200,
-        imageAlt: 'Steve montado en caballo',
-    });
+    if (mensaje.value === "") {
+        swal.fire({
+            title: 'Error',
+            text: 'No hay mensaje para copiar',
+            imageUrl: 'imagenes/error.jpg',
+            imageWidth: 220,
+            imageHeight: 200,
+            imageAlt: 'Creeper',
+        });
+        return;
+    } else {
+        mensaje.select();
+        document.execCommand("copy");
+        swal.fire({
+            title: 'Copiado',
+            text: 'El mensaje ha sido copiado al portapapeles',
+            imageUrl: 'imagenes/copy.jpg',
+            imageWidth: 220,
+            imageHeight: 200,
+            imageAlt: 'Steve montado en caballo',
+        });
+    }
 }
 
 // Función para encriptar

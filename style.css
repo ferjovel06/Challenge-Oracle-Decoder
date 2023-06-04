@@ -37,6 +37,7 @@ body {
     background: url(imagenes/background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: url(imagenes/cursor.png), auto;
 }
 
 .logo {
@@ -68,6 +69,7 @@ main {
     margin-top: 90px;
     text-transform: lowercase;
     background: none;
+    cursor: url(imagenes/cursor.png), auto;
 }
 
 ::placeholder {
@@ -89,6 +91,7 @@ main {
     margin-top: 20px;
     padding: 115px 20px;
     position: absolute;
+    cursor: url(imagenes/cursor.png), auto;
 }
 
 .mensaje:focus {
